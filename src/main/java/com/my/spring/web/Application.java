@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.my.spring.web.ch04.dao.map")
+@MapperScan("com.my.spring.web.**.dao.map")
 //@MapperScan("com.my.spring.web.**.dao.map")
 public class Application {
 
